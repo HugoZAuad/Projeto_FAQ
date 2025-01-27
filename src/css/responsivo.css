@@ -2,20 +2,66 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.titulo {
+  display: flex;
+  align-items: center;
+}
+
+#img-titulo {
+  margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+  main {
+    left: 0;
+    bottom: 100px;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .titulo {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+
+  #img-titulo {
+    width: 20%;
+    padding: 0;
+    margin: 0 10px 0 0;
+  }
+
+  #titulo-texto {
+    font-size: 40px;
+    padding: 20px 0;
+  }
+
+  .perguntas {
+    padding: 10px 20px;
+  }
+
+  .resposta {
+    margin-left: 20px;
+    padding: 10px 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .fundo {
     background-size: cover;
   }
 
   main {
-    position: relative;
-    left: 1px;
-    bottom: 110px;
-    border-radius: 10px;
+    left: 0;
+    bottom: 50px;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
   }
 
   #titulo-texto {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .perguntas h1 {
@@ -24,6 +70,32 @@ body {
 
   .resposta {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .fundo {
+    background-size: cover;
+  }
+
+  main {
+    left: 0;
+    bottom: 20px;
+    padding: 10px;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  #titulo-texto {
+    font-size: 24px;
+  }
+
+  .perguntas h1 {
+    font-size: 16px;
+  }
+
+  .resposta {
+    font-size: 12px;
   }
 }
 
@@ -32,33 +104,49 @@ body {
     background-size: cover;
   }
 
-  #titulo-texto {
-    font-size: 16px;
-  }
-
   main {
-    position: relative;
-    bottom: 20px;
-    border-radius: 10px;
+    left: 0;
+    bottom: 10px;
+    padding: 10px;
+    width: 95%;
+    margin: 0 auto;
   }
 
-  .perguntas h1 {
-    font-size: 18px;
+  #titulo-texto {
+    font-size: 20px;
   }
 
-  .resposta {
-    font-size: 10px;
-    position: relative;
-    right: 35px;
-  }
-}
-
-@media (max-width: 360px) {
   .perguntas h1 {
     font-size: 14px;
   }
 
   .resposta {
     font-size: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .fundo {
+    background-size: cover;
+  }
+
+  main {
+    left: 0;
+    bottom: 5px;
+    padding: 5px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #titulo-texto {
+    font-size: 18px;
+  }
+
+  .perguntas h1 {
+    font-size: 12px;
+  }
+
+  .resposta {
+    font-size: 8px;
   }
 }

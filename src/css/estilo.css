@@ -67,12 +67,6 @@ main .perguntas {
   display: none;
 }
 
-.attribution{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .perguntas:hover{
   color: rgb(187, 16, 158);
 }
