@@ -1,0 +1,51 @@
+Body{
+    font-family: "Work Sans", serif;
+    background-color: hsl(275, 100%, 97%);
+}
+
+.fundo{
+  background-image: url(/src/images/imgs/background-pattern-desktop.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 35vh;
+}
+
+.titulo{
+  display: flex;
+  padding: 50px;
+  background-color: white;
+}
+  #titulo-texto{
+    font-size: 70px;
+    margin: 5px 20px;
+    color: hsl(292, 42%, 14%);
+  }
+
+#pergunta1{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+#iconMais{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.esconder{
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+
