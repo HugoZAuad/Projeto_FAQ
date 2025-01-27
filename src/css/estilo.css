@@ -1,51 +1,42 @@
-Body{
-    font-family: "Work Sans", serif;
-    background-color: hsl(275, 100%, 97%);
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: hsl(275, 100%, 97%);
 }
 
 .fundo{
-  background-image: url(/src/images/imgs/background-pattern-desktop.svg);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
-  height: 35vh;
+
 }
 
-.titulo{
+main{
+  display: grid;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%; 
+  max-width: 1000px; 
+  min-width: 300px; 
+}
+
+main #img-titulo{
+  width: 10%;
+  margin-right: 50px;
+}
+
+.titulo {
   display: flex;
-  padding: 50px;
-  background-color: white;
-}
-  #titulo-texto{
-    font-size: 70px;
-    margin: 5px 20px;
-    color: hsl(292, 42%, 14%);
-  }
+  font-size: 50px;
+  color: hsl(292, 42%, 14%);
 
-#pergunta1{
-  display: flex;
-  align-items: center;
-  margin: 20px;
 }
 
-#iconMais{
+.toggle-button {
   background: none;
   border: none;
   cursor: pointer;
+  margin-left: 20px;
 }
 
-.esconder{
+.esconder {
   display: none;
 }
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
-
-

@@ -1,10 +1,16 @@
-document.getElementById('iconMais').addEventListener('click', function() {
-    const resposta1 = document.getElementById('resposta1');
-    const icon = document.querySelector('#iconMais img');
-    resposta1.classList.toggle('esconder');
-    if (resposta1.classList.contains('esconder')) {
-        icon.src = '/src/images/icons/icon-plus.svg'; 
+const toggleButtons = document.querySelectorAll('.toggle-button');
+toggleButtons.forEach(button => {
+  button.addEventListener('click', () => {
+
+    const resposta = button.parentElement.nextElementSibling;
+    resposta.classList.toggle('esconder');
+    const icon = button.querySelector('.icon');
+
+
+    if (icon.src.includes('icon-plus.svg')) {
+      icon.src = '/src/images/icons/icon-minus.svg'; 
     } else {
-        icon.src = '/src/images/icons/icon-minus.svg';
+      icon.src = '/src/images/icons/icon-plus.svg'; 
     }
+  });
 });
