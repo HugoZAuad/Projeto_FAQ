@@ -1,0 +1,64 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .fundo {
+    background-size: cover;
+  }
+
+  main {
+    position: relative;
+    left: 1px;
+    bottom: 110px;
+    border-radius: 10px;
+  }
+
+  #titulo-texto {
+    font-size: 50px;
+  }
+
+  .perguntas h1 {
+    font-size: 18px;
+  }
+
+  .resposta {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .fundo {
+    background-size: cover;
+  }
+
+  #titulo-texto {
+    font-size: 16px;
+  }
+
+  main {
+    position: relative;
+    bottom: 20px;
+    border-radius: 10px;
+  }
+
+  .perguntas h1 {
+    font-size: 18px;
+  }
+
+  .resposta {
+    font-size: 10px;
+    position: relative;
+    right: 35px;
+  }
+}
+
+@media (max-width: 360px) {
+  .perguntas h1 {
+    font-size: 14px;
+  }
+
+  .resposta {
+    font-size: 10px;
+  }
+}
