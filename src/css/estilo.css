@@ -23,7 +23,9 @@ main {
 }
 
 main #img-titulo {
-  width: 10%;
+  width: 120px;
+  padding: 0;
+  margin: 0;
   padding-left: 50px;
   margin-right: 50px;
 }
@@ -43,12 +45,12 @@ main .perguntas {
   justify-content: space-between;
 }
 
-.perguntas{
+.perguntas {
   padding: 15px 0 30px 50px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
-.resposta{
+.resposta {
   margin-left: 30px;
   padding: 15px 20px 30px 30px;
   font-size: 18px;
@@ -60,13 +62,20 @@ main .perguntas {
   border: none;
   cursor: pointer;
   padding-right: 80px;
-  
 }
 
 .esconder {
   display: none;
 }
 
-.perguntas:hover{
+.perguntas:hover {
   color: rgb(187, 16, 158);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
