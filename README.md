@@ -38,3 +38,7 @@ Você pode visualizar o projeto ao vivo no seguinte link:
 ## Desafio
 
 Este projeto foi desenvolvido como parte de um desafio do [Frontend Mentor](https://www.frontendmentor.io?ref=challenge).
+
+## Deploy
+
+- https://projeto-faq-iota.vercel.app
